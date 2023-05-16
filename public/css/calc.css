@@ -1,0 +1,71 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: Verdana, Tahoma, sans-serif, Arial, Helvetica;
+    font-size: 10pt;
+    letter-spacing: 0.5px;
+    line-height: 1.41;
+}
+
+.main {
+    margin: 20px;
+}
+
+form {
+    border: rgb(147, 168, 180);
+}
+
+label {
+    font-weight: bold;
+    display: inline-block;
+    width: 200px;
+}
+
+input[type=submit] {
+    font-weight: bold;
+    background-color: rgb(241, 130, 130);
+    font-size: large;
+}
+
+.light-border {
+    background-color: white;
+    border-top: 2px solid whitesmoke;
+    border-right: 2px solid grey;
+    border-bottom: 2px solid grey;
+    border-left: 2px solid whitesmoke;
+}
+
+fieldset {
+    border: 1px solid gray;
+    width: 40%;
+    background-color: lightblue;
+    border-radius: 12px;
+    /* margin: 20px; */
+}
+
+
+.radio-label {
+    width: 100px;
+    display: inline;
+}
+
+
+.footer {
+    margin: 20px 10px 10px 20px;
+}
+
+.footer p {
+    float: left;
+    clear: left;
+}
+
+img {
+    vertical-align: middle;
+}
+
+#validators {
+    margin: 20px 10px 10px 0px;
+    float: left;
+    clear: left;
+}
